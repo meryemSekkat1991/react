@@ -1,13 +1,12 @@
 import React from 'react';
+// @ts-ignore
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from "./components/login";
-import About from "./components/about";
+import App from "./App"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Login/>,
-  <About/>,
+  <App/>,
   document.getElementById('root')
 );
 
